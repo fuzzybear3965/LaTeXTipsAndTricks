@@ -27,13 +27,13 @@ be recompiled since the references to the `label`s will be initially undefined
 when using the `external` library. The solution to this, currently, is to *not* use
 `\usetikzlibrary{external}` but, instead, to use the version that comes with
 PGFPlots, which is more recent. Thus,
-```
+```latex
 \usepackage{pgfplots}
 \usetikzlibrary{external}
 \tikzexternalize
 ```
 should become
-```
+```latex
 \usepackage{pgfplots}
 \usepgfplotslibrary{external}
 \tikzexternalize
