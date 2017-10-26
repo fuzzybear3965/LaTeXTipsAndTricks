@@ -6,7 +6,7 @@ solutions to various problems that I've had.
 
 
 # Table of Contents
-1. [Figures](#figs)
+1. [Figures](#figures)
 2. [Fonts](#fonts)
 
 # Figures
