@@ -20,7 +20,7 @@ legend. In that case, the recommended solution is to use `\label`s in the first
 `axis` environment for each plot for which you want a legend entry. Then, in the
 second `axis` environment, you refer back to those `\label`s using an
 `\addlegendimage` command with `\ref`s hearkening back to the `\label`s in the
-first axis (described in more detail in [PGFPlots](#pgfplots)).
+first axis (described in more detail in [this PGFPlots problem](#pgfplots-1)).
 
 In order to get the legend to compile properly, however, the document needs to
 be recompiled since the references to the `label`s will be initially undefined
@@ -41,5 +41,6 @@ should become
 .
 
 ### PGFPlots
+1. <a name="pgfplots-1"></a>
 
 # Fonts
