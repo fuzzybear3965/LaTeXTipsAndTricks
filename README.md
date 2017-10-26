@@ -41,6 +41,6 @@ should become
 .
 
 ### PGFPlots
-1. <a name="pgfplots-1"></a>
+1. <a id="pgfplots-1"></a>
 
 # Fonts
