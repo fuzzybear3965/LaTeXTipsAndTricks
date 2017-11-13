@@ -12,8 +12,9 @@ solutions to various problems that I've had.
 # Figures
 ## PGF/TikZ
 ### External library
-1. Compile a `LateX` document containing references to (parts of) `TikzPicture`
-environments when using the `external` library.
+<a id="external-1"></a>
+1. Compile a `LateX` document containing `label`s painting to `\ref`s in (parts
+   of) `TikzPicture` environments when using the `external` library.
 
 This is related to the problem of creating a plot with dual y-axes and a commond
 legend. In that case, the recommended solution is to use `\label`s in the first
@@ -41,6 +42,7 @@ should become
 .
 
 ### PGFPlots
-1. <a id="pgfplots-1"></a>
+<a id="pgfplots-1"></a>
+1.
 
 # Fonts
